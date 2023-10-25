@@ -2,6 +2,7 @@
 Frontend: React, Redux, React-Router 6, styled-components.
 
 Backend: Node.js, Express.js, MongoDB.
+
 The application includes authentication and registration with validation using "react-hook-form."
 Passwords are hashed using the "bcrypt" library. Additionally, JSON Web Tokens (JWT) are implemented using the "jsonwebtoken" library.
 There are three user roles: Admin, Moderator, and User. 
