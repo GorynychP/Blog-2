@@ -4,7 +4,7 @@ Frontend: React, Redux, React-Router 6, styled-components.
 Backend: Node.js, Express.js, MongoDB.
 
 The application includes authentication and registration with validation using "react-hook-form."
-Passwords are hashed using the "bcrypt" library. Additionally, JSON Web Tokens (JWT) are implemented using the "jsonwebtoken" library.
+Passwords are hashed using the "bcrypt" library. Additionally, JSON Web Tokens (JWT) are implemented using the "jsonwebtoken" library and "cookie-parser".
 There are three user roles: Admin, Moderator, and User. 
 All roles, including users without roles, have the ability to read posts and comments. 
 Upon registration, users are assigned the default role of User.
@@ -22,7 +22,7 @@ Comment on posts.
 
 Присутствует авторизация и регистрация с валидацией с использованием "react-hook-form". 
 Пароли хешируются с использованием библиотеки "bcrypt". 
-Так же есть JWT с использованием библиотеки "jsonwebtoken".
+Так же приложение работает с JSON Web Tokens (JWT)  используя библиотеки "jsonwebtoken" и "cookie-parser".
 
 Существуют роли Admin, Moderator, User. 
 Всем ролям и без ролей доступно читать посты и комментрии. 
